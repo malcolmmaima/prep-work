@@ -5,6 +5,7 @@
 #
 # Difficulty: easy.
 
+
 def palindrome?(string)
 end
 
