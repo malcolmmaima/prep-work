@@ -6,6 +6,21 @@
 # Difficulty: easy.
 
 def factorial(n)
+	
+	if n < 0
+		return nil
+	end
+
+i = 0
+factor = 1
+
+while i < n
+	factor = factor*n
+	n-=1
+end
+
+	return factor
+	
 end
 
 # These are tests to check that your code is working. After writing

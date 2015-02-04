@@ -4,6 +4,17 @@
 # Difficulty: easy.
 
 def sum_nums(num)
+
+total = 0
+i = 0
+
+while i <= num
+
+	total+=i
+	i+=1
+	end
+return total
+
 end
 
 # These are tests to check that your code is working. After writing

@@ -4,6 +4,28 @@
 # Difficulty: easy.
 
 def time_conversion(minutes)
+
+if (minutes < 60)
+hours = 0
+minutes = minutes
+final_time = (hours.to_s + ":" + minutes.to_s )
+	end
+	
+else if (minutes > 60)
+hours = minutes / 60
+minutes = minutes % 60
+
+final_time = (hours.to_s + ":" + minutes.to_s )
+
+else if (minutes % 60 == 0)
+hours = minutes / 60
+minutes = minutes % 60
+final_time = puts(hours.to_s + ":" +  minutes.to_s)
+end
+end
+
+return final_time
+
 end
 
 # These are tests to check that your code is working. After writing

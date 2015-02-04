@@ -17,6 +17,7 @@ def longest_word(sentence)
 
     if longest_word == nil
       longest_word = current_word
+	  
     elsif longest_word.length < current_word.length
       longest_word = current_word
     end
@@ -26,6 +27,7 @@ def longest_word(sentence)
 
   return longest_word
 end
+
 
 # These are tests to check that your code is working. After writing
 # your solution, they should all print true.

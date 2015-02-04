@@ -7,6 +7,19 @@
 
 
 def palindrome?(string)
+reversed_string = "" # an empty variable where we'll store reversed string
+	
+	i = 0 # We need a starting point for looping
+	
+	while i < string.length # Lets start looping from our index to the input string length
+	
+		reversed_string = string[i] + reversed_string
+		
+		i+=1
+		
+		
+		end
+	return reversed_string === string
 end
 
 # These are tests to check that your code is working. After writing
